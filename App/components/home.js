@@ -25,49 +25,105 @@ var image3 = require('../images/image3.jpeg')
 var image4 = require('../images/image4.jpeg')
 var image5 = require('../images/image5.jpeg')
 var image6 = require('../images/image6.jpeg')
+var image7 = require('../images/image7.jpeg')
+var image8 = require('../images/image8.jpeg')
+var image9 = require('../images/image9.jpeg')
+var image10 = require('../images/image10.jpeg')
+var image11 = require('../images/image11.jpeg')
+var image12 = require('../images/image12.jpeg')
+var image13 = require('../images/image13.jpeg')
 
 const Cards = [{
   "id": 1,
-  "first_name": "Denise",
+  "first_name": "慕灵",
   "age": 21,
   "friends": 9,
   "interests": 38,
   "image": image1
 }, {
   "id": 2,
-  "first_name": "Cynthia",
+  "first_name": "凝天",
   "age": 27,
   "friends": 16,
   "interests": 49,
   "image": image2
 }, {
   "id": 3,
-  "first_name": "Maria",
+  "first_name": "曼香",
   "age": 29,
   "friends": 2,
   "interests": 39,
   "image": image3
 }, {
   "id": 4,
-  "first_name": "Jessica",
+  "first_name": "惜雪",
   "age": 20,
   "friends": 18,
   "interests": 50,
   "image": image4
 }, {
   "id": 5,
-  "first_name": "Julie",
+  "first_name": "春雁",
   "age": 28,
   "friends": 2,
   "interests": 13,
   "image": image5
 }, {
   "id": 6,
-  "first_name": "Anna",
+  "first_name": "幻珊",
   "age": 24,
   "friends": 12,
   "interests": 44,
   "image": image6
+}, {
+  "id": 7,
+  "first_name": "Anna",
+  "age": 24,
+  "friends": 12,
+  "interests": 44,
+  "image": image7
+}, {
+  "id": 8,
+  "first_name": "访琴",
+  "age": 24,
+  "friends": 12,
+  "interests": 44,
+  "image": image8
+}, {
+  "id": 9,
+  "first_name": "夏槐",
+  "age": 24,
+  "friends": 12,
+  "interests": 44,
+  "image": image9
+}, {
+  "id": 10,
+  "first_name": "含烟",
+  "age": 24,
+  "friends": 12,
+  "interests": 44,
+  "image": image10
+}, {
+  "id": 11,
+  "first_name": "凌瑶",
+  "age": 24,
+  "friends": 12,
+  "interests": 44,
+  "image": image11
+}, {
+  "id": 12,
+  "first_name": "Anna",
+  "age": 24,
+  "friends": 12,
+  "interests": 44,
+  "image": image12
+}, {
+  "id": 13,
+  "first_name": "怀萍",
+  "age": 24,
+  "friends": 12,
+  "interests": 44,
+  "image": image13
 }]
 
 export default class Home extends Component {
@@ -144,7 +200,7 @@ this.refs['swiper']._goToNextCard()  }
     )
 }
 }
-//onPress = {() => this.renderNope()} 
+//onPress = {() => this.renderNope()}
 
 const styles = StyleSheet.create({
   container: {
@@ -153,20 +209,20 @@ const styles = StyleSheet.create({
     backgroundColor: '#f7f7f7',
   },
   buttons:{
-    width:80, 
-    height:80, 
-    borderWidth:10, 
-    borderColor:'#e7e7e7', 
-    justifyContent:'center', 
+    width:80,
+    height:80,
+    borderWidth:10,
+    borderColor:'#e7e7e7',
+    justifyContent:'center',
     alignItems:'center',
     borderRadius:40
   },
   buttonSmall:{
-    width:50, 
-    height:50, 
-    borderWidth:10, 
-    borderColor:'#e7e7e7', 
-    justifyContent:'center', 
+    width:50,
+    height:50,
+    borderWidth:10,
+    borderColor:'#e7e7e7',
+    justifyContent:'center',
     alignItems:'center',
     borderRadius:25
   },
@@ -179,5 +235,5 @@ const styles = StyleSheet.create({
     width: 350,
     height: 420,
   }
- 
+
 });

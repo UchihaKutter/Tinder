@@ -35,98 +35,150 @@ var image10 = require('../images/image10.jpeg')
 var image11 = require('../images/image11.jpeg')
 
 var convos = [{
-  "id": 1,
-  "name": "Diane",
-  "message": "Suspendisse accumsan tortor quis turpis.",
-  "image" : image1
+    "id": 1,
+    "name": "慕青",
+    "message": "你都需要辩证的从对方的角度上看问题.",
+    "image" : image1
 }, {
-  "id": 2,
-  "name": "Lois",
-  "message": "Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
-  "image" : image2
+    "id": 2,
+    "name": "梦琪",
+    "message": "足球电视环境中，所以烤香蕉，排球.",
+    "image" : image2
 }, {
-  "id": 3,
-  "name": "Mary",
-  "message": "Duis bibendum.",
-  "image" : image3
+    "id": 3,
+    "name": "Mary",
+    "message": "科技一直是贯穿这两年行情的主线.",
+    "image" : image3
 }, {
-  "id": 4,
-  "name": "Susan",
-  "message": "Praesent blandit.",
-  "image" : image4
+    "id": 4,
+    "name": "忆柳",
+    "message": "祝大家心想事成.",
+    "image" : image4
 }, {
-  "id": 5,
-  "name": "Betty",
-  "message": "Mauris enim leo, rhoncus sed, vestibulum, cursus id, turpis.",
-  "image" : image5
+    "id": 5,
+    "name": "Betty",
+    "message": "不要试图抓住趋势的第一段和最后一段，因为这两段行情是世界上最为昂贵的两段行情.",
+    "image" : image5
 }, {
-  "id": 6,
-  "name": "Deborah",
-  "message": "Aliquam sit amet diam in magna bibendum imperdiet.",
-  "image" : image6
+    "id": 6,
+    "name": "之桃",
+    "message": "水调歌头·大盘反弹.",
+    "image" : image6
 }, {
-  "id": 7,
-  "name": "Frances",
-  "message": "Phasellus sit amet erat.",
-  "image" : image7
+    "id": 7,
+    "name": "Frances",
+    "message": "电影是一个哨子.",
+    "image" : image7
 }, {
-  "id": 8,
-  "name": "Joan",
-  "message": "Vestibulum ante ipsum bilia Curae; Duis faucibus accumsan odio.",
-  "image" : image8
+    "id": 8,
+    "name": "慕灵",
+    "message": "外面风很大，看着东倒西歪的竹子，忽然想起一个著名的哲学话题.",
+    "image" : image8
 }, {
-  "id": 9,
-  "name": "Denise",
-  "message": "Aliquam non mauris.",
-  "image" : image9
+    "id": 9,
+    "name": "Denise",
+    "message": "刚才看了一部《绣春刀》里面最经典的台词.",
+    "image" : image9
 }, {
-  "id": 10,
-  "name": "Rachel",
-  "message": "Nulla ac enim.",
-  "image" : image10
+    "id": 10,
+    "name": "语琴",
+    "message": "一个人很靠谱的标准.",
+    "image" : image10
 }]
 
 var newMatches = [{
-  "id": 1,
-  "first_name": "Sarah",
-  "image" : image7
+    "id": 1,
+    "name": "慕青",
+    "message": "你都需要辩证的从对方的角度上看问题.",
+    "image" : image1
 }, {
-  "id": 2,
-  "first_name": "Pamela",
-  "image" : image8
+    "id": 2,
+    "name": "梦琪",
+    "message": "足球电视环境中，所以烤香蕉，排球.",
+    "image" : image2
 }, {
-  "id": 3,
-  "first_name": "Diana",
-  "image" : image9
+    "id": 3,
+    "name": "Mary",
+    "message": "科技一直是贯穿这两年行情的主线.",
+    "image" : image3
 }, {
-  "id": 4,
-  "first_name": "Christina",
-  "image" : image10
+    "id": 4,
+    "name": "忆柳",
+    "message": "祝大家心想事成.",
+    "image" : image4
 }, {
-  "id": 5,
-  "first_name": "Rebecca",
-  "image" : image11
+    "id": 5,
+    "name": "Betty",
+    "message": "不要试图抓住趋势的第一段和最后一段，因为这两段行情是世界上最为昂贵的两段行情.",
+    "image" : image5
 }, {
-  "id": 6,
-  "first_name": "Wanda",
-  "image" : image5
+    "id": 6,
+    "name": "之桃",
+    "message": "水调歌头·大盘反弹.",
+    "image" : image6
 }, {
-  "id": 7,
-  "first_name": "Sara",
-  "image" : image6
+    "id": 7,
+    "name": "Frances",
+    "message": "电影是一个哨子.",
+    "image" : image7
 }, {
-  "id": 8,
-  "first_name": "Judith",
-  "image" : image7
+    "id": 8,
+    "name": "慕灵",
+    "message": "外面风很大，看着东倒西歪的竹子，忽然想起一个著名的哲学话题.",
+    "image" : image8
 }, {
-  "id": 9,
-  "first_name": "Ruby",
-  "image" : image1
+    "id": 9,
+    "name": "Denise",
+    "message": "刚才看了一部《绣春刀》里面最经典的台词.",
+    "image" : image9
 }, {
-  "id": 10,
-  "first_name": "Sandra",
-  "image" : image11
+    "id": 10,
+    "name": "语琴",
+    "message": "一个人很靠谱的标准.",
+    "image" : image10
 }]
+
+// var newMatches = [{
+//   "id": 1,
+//   "first_name": "Sarah",
+//   "image" : image7
+// }, {
+//   "id": 2,
+//   "first_name": "慕青",
+//   "image" : image8
+// }, {
+//   "id": 3,
+//   "first_name": "Diana",
+//   "image" : image9
+// }, {
+//   "id": 4,
+//   "first_name": "Christina",
+//   "image" : image10
+// }, {
+//   "id": 5,
+//   "first_name": "梦琪",
+//   "image" : image11
+// }, {
+//   "id": 6,
+//   "first_name": "忆柳",
+//   "image" : image5
+// }, {
+//   "id": 7,
+//   "first_name": "之桃",
+//   "image" : image6
+// }, {
+//   "id": 8,
+//   "first_name": "Judith",
+//   "image" : image7
+// }, {
+//   "id": 9,
+//   "first_name": "慕灵",
+//   "image" : image1
+// }, {
+//   "id": 10,
+//   "first_name": "语琴",
+//   "image" : image11
+// }]
 
 var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
 
@@ -140,7 +192,7 @@ export default class Messages extends Component {
     }
 
   }
-  
+
   eachPic(x){
     return(
       <TouchableOpacity style={{alignItems:'center'}}>
@@ -155,25 +207,25 @@ export default class Messages extends Component {
               <Image source = {x.image} style={{width:70, height:70, borderRadius:35, margin:10}} />
               <View>
               <Text style={{fontWeight:'600', color:'#111'}}>{x.name}</Text>
-              <Text 
+              <Text
               numberOfLines ={1}
               style={{fontWeight:'400', color:'#888', width:200}}>{x.message}</Text>
               </View>
               </TouchableOpacity>)}
 
-   
+
   render() {
     return (
       <View style = {{flex:1}}>
       <Nav type = 'message' onPress = {() => this.props.navigator.replace({id:'home'})} />
       <ScrollView style={styles.container}>
-      <TextInput 
+      <TextInput
       style = {{height:50, }}
       placeholder="Search"
       />
       <View style={styles.matches}>
-      <Text style = {{color:'#da533c', fontWeight:'600', fontSize:12}}>THIS PARTY'S BUZZING WITH BAD BITCHES</Text>
-      <ListView 
+      <Text style = {{color:'#da533c', fontWeight:'600', fontSize:12}}>您可能认识的人</Text>
+      <ListView
       horizontal={true}
       showsHorizontalScrollIndicator = {false}
     dataSource={this.state.dataSource}
@@ -183,7 +235,7 @@ export default class Messages extends Component {
       </View>
       <View style = {{margin:10}}>
       <Text style = {{color:'#da533c', fontWeight:'600', fontSize:12}}>MESSAGES</Text>
-      <ListView 
+      <ListView
       horizontal={false}
       scrollEnabled = {false}
       showsHorizontalScrollIndicator = {false}
@@ -192,13 +244,13 @@ export default class Messages extends Component {
       renderRow={(rowData) =>this.convoRender(rowData)}
       />
       </View>
-     
+
         </ScrollView>
         </View>
     )
 }
 }
-//onPress = {() => this.renderNope()} 
+//onPress = {() => this.renderNope()}
 
 const styles = StyleSheet.create({
   container: {
@@ -208,27 +260,27 @@ const styles = StyleSheet.create({
   },
   matches:{
   borderTopWidth:1,
-  paddingTop:15, 
+  paddingTop:15,
   borderTopColor:'#da533c',
   borderBottomWidth:1,
-  paddingBottom:15, 
+  paddingBottom:15,
   borderBottomColor:'#e3e3e3'
   },
   buttons:{
-    width:80, 
-    height:80, 
-    borderWidth:10, 
-    borderColor:'#fff', 
-    justifyContent:'center', 
+    width:80,
+    height:80,
+    borderWidth:10,
+    borderColor:'#fff',
+    justifyContent:'center',
     alignItems:'center',
     borderRadius:40
   },
   buttonSmall:{
-    width:50, 
-    height:50, 
-    borderWidth:10, 
-    borderColor:'#e7e7e7', 
-    justifyContent:'center', 
+    width:50,
+    height:50,
+    borderWidth:10,
+    borderColor:'#e7e7e7',
+    justifyContent:'center',
     alignItems:'center',
     borderRadius:25
   },
@@ -241,5 +293,5 @@ const styles = StyleSheet.create({
     width: 350,
     height: 420,
   }
- 
+
 });

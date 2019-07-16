@@ -28,7 +28,7 @@ export default class Profile extends Component {
     this.state = {
       friends: 1098
     }
-    
+
   }
 
 
@@ -41,26 +41,26 @@ export default class Profile extends Component {
       <ScrollView style={styles.container}>
       <Image source ={require('../images/profile.jpg')} resizeMode="stretch" style={{height:350, width:width}} />
        <View style={[styles.row, {marginTop:15}]}>
-       <Text style = {{fontSize:19, fontWeight:'400'}}>Samuel, </Text><Text style={{fontSize:21, fontWeight:'300', marginBottom:-2}}>23</Text>
+       <Text style = {{fontSize:19, fontWeight:'400'}}>文钟， </Text><Text style={{fontSize:21, fontWeight:'300', marginBottom:-2}}>23</Text>
        </View>
        <View style={styles.row}>
-       <Text style={{color:'#444', fontSize:15}}>Unappers Creative</Text>
+       <Text style={{color:'#444', fontSize:15}}>生活很happy</Text>
        </View>
        <View style={styles.row}>
-       <Text style={{color:'#777', fontSize:11}}>less than a mile away</Text>
+       <Text style={{color:'#777', fontSize:11}}>小于1公里</Text>
        </View>
        <View style={styles.description}>
-       <Text style={{color:'#555'}}>We hook up, you do my laundry, I promise to call you but never really.</Text>
+       <Text style={{color:'#555'}}>我答应给你打电话，但从来没有</Text>
        </View>
        <View style ={styles.commons}>
        <Text style = {styles.title}>
-      {this.state.friends} for Common Connections
+      {this.state.friends} 您可能认识
        </Text>
-       <Text style={{marginTop:10, fontSize:14, color:'#666', fontWeight:"400"}}>We compare your Facebook friends with those of your matches to display any common connections</Text>
+       <Text style={{marginTop:10, fontSize:14, color:'#666', fontWeight:"400"}}>我们将推荐您感兴趣的人。</Text>
        </View>
        <View style ={styles.commons}>
        <Text style = {styles.title}>
-      Instagram Photos
+      生活照
        </Text>
        <ScrollView
        horizontal = {true}
@@ -96,7 +96,7 @@ export default class Profile extends Component {
     )
 }
 }
-//onPress = {() => this.renderNope()} 
+//onPress = {() => this.renderNope()}
 
 const styles = StyleSheet.create({
   container: {
@@ -120,11 +120,11 @@ const styles = StyleSheet.create({
     padding:15
   },
   buttons:{
-    width:80, 
-    height:80, 
-    borderWidth:10, 
-    borderColor:'#e7e7e7', 
-    justifyContent:'center', 
+    width:80,
+    height:80,
+    borderWidth:10,
+    borderColor:'#e7e7e7',
+    justifyContent:'center',
     alignItems:'center',
     borderRadius:40
   },
@@ -137,11 +137,11 @@ const styles = StyleSheet.create({
     marginBottom:10
   },
   buttonSmall:{
-    width:50, 
-    height:50, 
-    borderWidth:10, 
-    borderColor:'#e7e7e7', 
-    justifyContent:'center', 
+    width:50,
+    height:50,
+    borderWidth:10,
+    borderColor:'#e7e7e7',
+    justifyContent:'center',
     alignItems:'center',
     borderRadius:25
   },
@@ -154,5 +154,5 @@ const styles = StyleSheet.create({
     width: 350,
     height: 420,
   }
- 
+
 });
