@@ -202,6 +202,7 @@ this.refs['swiper']._goToNextCard()  }
 }
 //onPress = {() => this.renderNope()}
 
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
